@@ -1,0 +1,49 @@
+.footer{
+
+    height: 15vh;
+    .redLine{
+        background: #DD1A1A;
+        height: 60%;
+        width: 100%;
+    }
+
+    .blackLine{
+        background: #0C0C0C;
+        height: 40%;
+    }
+
+    .Buttom{
+        width: 10%;
+        .center{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            border: 8px solid #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .centerPointer{
+                width: 30px;
+                height: 30px;
+                border: 7px solid #000000;
+                background: #212121;
+                border-radius: 50%;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .Buttom{
+        top: 3rem;
+    }
+}
+
+@media (min-width: 700px) {
+    .Buttom{
+        top: 2.2rem;
+    }
+}

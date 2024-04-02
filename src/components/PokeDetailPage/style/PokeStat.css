@@ -1,0 +1,10 @@
+.porcentajeBar{
+    height: 34px;
+    background-color:  #F6F6F6;
+    border-radius: 4px;
+}
+
+.limitPorcentarjeBar{
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+
+}

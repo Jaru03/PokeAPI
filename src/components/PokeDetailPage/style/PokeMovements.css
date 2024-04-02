@@ -1,0 +1,12 @@
+.movements{
+    height: auto;
+    width: 80%;
+    box-shadow: 0px 2px 16px 0px #00000026;
+    margin: 20px auto;
+    max-width: 1116px;
+}
+
+.movement{
+    background: #E5E5E5;
+    border-radius: 50px;
+}

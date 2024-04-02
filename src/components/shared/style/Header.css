@@ -1,0 +1,31 @@
+.principal{
+    width: 117px;
+    height: 117px;
+    right: 10%;
+    top: 95px;
+
+    .secundaria{
+        width: 90px;
+        height: 90px;
+
+        .semi{
+            width: 63px;
+            height: 63px;
+            .puntito{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .img-banner {
+        display: none;
+    }
+
+    .principal{
+        right: 50%;
+        transform: translateX(53%);
+    }
+}
